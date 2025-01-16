@@ -1,0 +1,45 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+}
+
+#container {
+    width: 1000px;
+    height: 520px;
+    background-image: url(https://www.google.com/imgres?q=background%20images%20dark&imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F43%2F13%2F66%2F43136636f16bf94193ea96b6a9a8d25b.png&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F512566001322632213%2F&docid=BRiblhqNg9AG0M&tbnid=us3lcsQLHjSEgM&vet=12ahUKEwjTx7zY5fqKAxWFUkEAHXdlIEEQM3oECGcQAA..i&w=1920&h=1200&hcb=2&ved=2ahUKEwjTx7zY5fqKAxWFUkEAHXdlIEEQM3oECGcQAA);
+    margin: 20px auto;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(94, 84, 84);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(24, 20, 20);
+}
+
+#keyboard {
+    height: 400px;
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+    font-size: 13px;
+}
